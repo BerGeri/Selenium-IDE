@@ -1,0 +1,95 @@
+{
+  "id": "18f9382d-4596-4754-9ef5-4ec8cbab12cb",
+  "version": "2.0",
+  "name": "Gergő Bereczki_Selenium_negativ",
+  "url": "https://www.epam.com",
+  "tests": [{
+    "id": "640e3423-45ab-4a29-bece-ff25541ff206",
+    "name": "Negativ_test",
+    "commands": [{
+      "id": "40939353-eeeb-4cbe-84e0-b8ce2e6e75a7",
+      "comment": "",
+      "command": "open",
+      "target": "/careers",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "15737c26-eb16-4098-9c8c-fcd98101b023",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x838",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a26b1c82-09aa-43bb-a30f-461b2e6372c8",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.recruiting-search__form",
+      "targets": [
+        ["css=.recruiting-search__form", "css:finder"],
+        ["xpath=//main[@id='main']/div/div[2]/section/div/div[2]/div/form", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form", "xpath:position"]
+      ],
+      "value": "KEYWORD OR JOB ID\\nLOCATION\\nDebrecen\\nSKILLS\\nAll Skills\\nFIND"
+    }, {
+      "id": "d97a285f-e6d8-4010-b15d-b0bdaa650fbe",
+      "comment": "",
+      "command": "click",
+      "target": "id=new_form_job_search_1445745853_copy-keyword",
+      "targets": [
+        ["id=new_form_job_search_1445745853_copy-keyword", "id"],
+        ["css=#new_form_job_search_1445745853_copy-keyword", "css:finder"],
+        ["xpath=//input[@id='new_form_job_search_1445745853_copy-keyword']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div/div[2]/section/div/div[2]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5778828c-c97b-45eb-b1ba-63f78b520c06",
+      "comment": "",
+      "command": "type",
+      "target": "id=new_form_job_search_1445745853_copy-keyword",
+      "targets": [
+        ["id=new_form_job_search_1445745853_copy-keyword", "id"],
+        ["css=#new_form_job_search_1445745853_copy-keyword", "css:finder"],
+        ["xpath=//input[@id='new_form_job_search_1445745853_copy-keyword']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div/div[2]/section/div/div[2]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div/input", "xpath:position"]
+      ],
+      "value": "Enginer"
+    }, {
+      "id": "5cce460d-8d9d-4556-9d70-6934dacd0da8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.recruiting-search__submit",
+      "targets": [
+        ["css=.recruiting-search__submit", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div/div[2]/section/div/div[2]/div/form/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d45ca9c0-44e7-4e7e-9d7b-b842ad285d45",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.search-result__error-message",
+      "targets": [
+        ["css=.search-result__error-message", "css:finder"],
+        ["xpath=//main[@id='main']/div/div/section/div/div/div/section/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div[2]", "xpath:position"]
+      ],
+      "value": "Sorry, your search returned no results. Please try another combination."
+    }]
+  }],
+  "suites": [{
+    "id": "77c20bbf-0814-4b10-8fea-9765bf335841",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["640e3423-45ab-4a29-bece-ff25541ff206"]
+  }],
+  "urls": ["https://www.epam.com/"],
+  "plugins": []
+}
