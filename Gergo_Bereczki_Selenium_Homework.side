@@ -8,14 +8,14 @@
     "name": "positive_test",
     "commands": [{
       "id": "06e97518-579e-48f1-9f88-40e8e8254855",
-      "comment": "",
+      "comment": "Page is opened",
       "command": "open",
       "target": "https://www.epam.com/careers",
       "targets": [],
       "value": ""
     }, {
       "id": "5cc9ea84-0f21-4a86-8a48-ec7acdbb0fe5",
-      "comment": "",
+      "comment": "The browser is maximized",
       "command": "setWindowSize",
       "target": "1550x838",
       "targets": [],
@@ -68,7 +68,7 @@
       "value": ""
     }, {
       "id": "1c639ea7-9466-48f8-934b-5becb2bb8a75",
-      "comment": "",
+      "comment": "The selected location is appeared in the filter box.",
       "command": "assertText",
       "target": "css=.select2-selection__rendered",
       "targets": [
@@ -92,7 +92,7 @@
       "value": ""
     }, {
       "id": "48c659e7-cece-47d8-a33d-c615e6b0ae73",
-      "comment": "",
+      "comment": "The typed keyword is visible in the input field",
       "command": "type",
       "target": "id=new_form_job_search_1445745853_copy-keyword",
       "targets": [
@@ -117,7 +117,7 @@
       "value": ""
     }, {
       "id": "7e80562f-71da-4e60-a1c5-0918cabec021",
-      "comment": "",
+      "comment": "All available engineer positions are displayed with the selected location",
       "command": "assertText",
       "target": "css=.search-result__heading",
       "targets": [
@@ -128,7 +128,7 @@
       "value": "WE FOUND 165 JOB OPENINGS RELATED TO \"ENGINEER\""
     }, {
       "id": "e9500bb4-917d-4cdb-a025-f65c5159d352",
-      "comment": "",
+      "comment": "The number of jobs listed will be reduced according to the conditions",
       "command": "click",
       "target": "css=.job-search__filter-items--remote > .recruiting-search__filter-label",
       "targets": [
@@ -191,7 +191,7 @@
       "value": ""
     }, {
       "id": "56e302f6-0555-4311-bdcd-18f47ba807eb",
-      "comment": "",
+      "comment": "The selected job will be displayed and contains the korrekt keyword and selected location.",
       "command": "assertText",
       "target": "css=h1",
       "targets": [
@@ -203,7 +203,7 @@
       "value": "Senior JavaScript Engineer"
     }, {
       "id": "14e20bf5-8826-4452-be5e-0e32f92e1896",
-      "comment": "",
+      "comment": "The selected job will be displayed and contains the korrekt keyword and selected location.",
       "command": "assertText",
       "target": "css=.recruiting-page__location > li",
       "targets": [
@@ -214,7 +214,7 @@
       "value": "Minsk, Belarus or Anywhere"
     }, {
       "id": "9afff1ac-ce64-4974-bd4f-1b2f276f815c",
-      "comment": "",
+      "comment": "The selected job will be displayed and contains the korrekt keyword and selected location.",
       "command": "assertText",
       "target": "css=.recruiting-page__location > li",
       "targets": [
@@ -239,7 +239,7 @@
       "windowTimeout": 2000
     }, {
       "id": "59c7acf8-03b5-4b1c-aefc-5e4dcd29f623",
-      "comment": "",
+      "comment": "The pop-up window will be showed and you need to log in Facebook",
       "command": "selectWindow",
       "target": "handle=${win8156}",
       "targets": [],
