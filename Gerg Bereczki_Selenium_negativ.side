@@ -8,14 +8,14 @@
     "name": "Negativ_test",
     "commands": [{
       "id": "40939353-eeeb-4cbe-84e0-b8ce2e6e75a7",
-      "comment": "",
+      "comment": "Page is opened",
       "command": "open",
       "target": "/careers",
       "targets": [],
       "value": ""
     }, {
       "id": "15737c26-eb16-4098-9c8c-fcd98101b023",
-      "comment": "",
+      "comment": "The browser is maximized",
       "command": "setWindowSize",
       "target": "1550x838",
       "targets": [],
@@ -46,7 +46,7 @@
       "value": ""
     }, {
       "id": "5778828c-c97b-45eb-b1ba-63f78b520c06",
-      "comment": "",
+      "comment": "The typed keyword is visible in the input field",
       "command": "type",
       "target": "id=new_form_job_search_1445745853_copy-keyword",
       "targets": [
@@ -71,7 +71,7 @@
       "value": ""
     }, {
       "id": "d45ca9c0-44e7-4e7e-9d7b-b842ad285d45",
-      "comment": "",
+      "comment": "No matches. The following message will be displayed: “Sorry, your search returned no results. Please try another combination.”",
       "command": "assertText",
       "target": "css=.search-result__error-message",
       "targets": [
