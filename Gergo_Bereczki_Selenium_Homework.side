@@ -1,0 +1,259 @@
+{
+  "id": "e6e2e556-6df1-4c16-aa3a-3afc74af0655",
+  "version": "2.0",
+  "name": "Gergo_Bereczki_Selenium",
+  "url": "https://www.epam.com/careers",
+  "tests": [{
+    "id": "6280c9a3-4058-4dd5-9337-6cf8c9159c7f",
+    "name": "positive_test",
+    "commands": [{
+      "id": "c48162ef-129f-49a2-81e4-894c9c770a5b",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.epam.com/careers",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2c523508-c0f3-466e-8e47-97c72428b6fa",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x838",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "61f85a44-9d80-43b2-b94c-1da2bb202a3f",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.recruiting-search__form",
+      "targets": [
+        ["css=.recruiting-search__form", "css:finder"],
+        ["xpath=//main[@id='main']/div/div[2]/section/div/div[2]/div/form", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form", "xpath:position"]
+      ],
+      "value": "KEYWORD OR JOB ID\\nLOCATION\\nDebrecen\\nSKILLS\\nAll Skills\\nFIND"
+    }, {
+      "id": "77247ba5-8877-4d24-a70c-a142f456ca52",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.select2-selection__rendered",
+      "targets": [
+        ["css=.select2-selection__rendered", "css:finder"],
+        ["xpath=//main[@id='main']/div/div[2]/section/div/div[2]/div/form/div[2]/div/span/span/span/span", "xpath:idRelative"],
+        ["xpath=//span/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "426f1c01-05bb-4c1f-9470-071f3846e09a",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.select2-search__field",
+      "targets": [
+        ["css=.select2-search__field", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div/div[2]/section/div/div[2]/div/form/div[2]/div/span[2]/span/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7daddd26-4e87-449f-98a0-50057a967c50",
+      "comment": "",
+      "command": "click",
+      "target": "css=.select2-results__option:nth-child(4) > .select2-results__group",
+      "targets": [
+        ["css=.select2-results__option:nth-child(4) > .select2-results__group", "css:finder"],
+        ["xpath=//ul[@id='select2-new_form_job_search_1445745853_copy-location-results']/li[4]/strong", "xpath:idRelative"],
+        ["xpath=//li[4]/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Belarus')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e33cdd04-fcc1-4f02-a9ad-4f75cff6a342",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.select2-selection__rendered",
+      "targets": [
+        ["css=.select2-selection__rendered", "css:finder"],
+        ["xpath=//main[@id='main']/div/div[2]/section/div/div[2]/div/form/div[2]/div/span/span/span/span", "xpath:idRelative"],
+        ["xpath=//span/span/span/span", "xpath:position"]
+      ],
+      "value": "Minsk"
+    }, {
+      "id": "b9269662-a426-42b9-8b83-68ee20c76089",
+      "comment": "",
+      "command": "click",
+      "target": "id=new_form_job_search_1445745853_copy-keyword",
+      "targets": [
+        ["id=new_form_job_search_1445745853_copy-keyword", "id"],
+        ["css=#new_form_job_search_1445745853_copy-keyword", "css:finder"],
+        ["xpath=//input[@id='new_form_job_search_1445745853_copy-keyword']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div/div[2]/section/div/div[2]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "62a87a40-32aa-43ee-a4ec-01ea48e631c0",
+      "comment": "",
+      "command": "type",
+      "target": "id=new_form_job_search_1445745853_copy-keyword",
+      "targets": [
+        ["id=new_form_job_search_1445745853_copy-keyword", "id"],
+        ["css=#new_form_job_search_1445745853_copy-keyword", "css:finder"],
+        ["xpath=//input[@id='new_form_job_search_1445745853_copy-keyword']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div/div[2]/section/div/div[2]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div/input", "xpath:position"]
+      ],
+      "value": "Engineer"
+    }, {
+      "id": "e6fd11c0-7d8f-43bc-af97-a085c43e16e3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.recruiting-search__submit",
+      "targets": [
+        ["css=.recruiting-search__submit", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div/div[2]/section/div/div[2]/div/form/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2152810a-0aec-4709-b5cf-a70541f44acf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.job-search__filter-items--remote > .recruiting-search__filter-label",
+      "targets": [
+        ["css=.job-search__filter-items--remote > .recruiting-search__filter-label", "css:finder"],
+        ["xpath=//main[@id='main']/div/div/section/div/div/div/form/fieldset/p[2]/label", "xpath:idRelative"],
+        ["xpath=//p[2]/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "69138069-d4a6-49a0-ab19-e099b0a29d5d",
+      "comment": "",
+      "command": "assertText",
+      "target": "linkText=Senior JavaScript Engineer",
+      "targets": [
+        ["linkText=Senior JavaScript Engineer", "linkText"],
+        ["css=.search-result__item:nth-child(1) .search-result__item-name", "css:finder"],
+        ["xpath=//a[contains(text(),'Senior JavaScript Engineer')]", "xpath:link"],
+        ["xpath=//main[@id='main']/div/div/section/div/div/div/section/ul/li/div/h5/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/careers/job-listings/job.45126')]", "xpath:href"],
+        ["xpath=//h5/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Senior JavaScript Engineer')]", "xpath:innerText"]
+      ],
+      "value": "Senior JavaScript Engineer"
+    }, {
+      "id": "b8f499dc-f3d0-4ffb-bfed-8b66c8a8a5c5",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.search-result__item:nth-child(1) .search-result__location",
+      "targets": [
+        ["css=.search-result__item:nth-child(1) .search-result__location", "css:finder"],
+        ["xpath=//main[@id='main']/div/div/section/div/div/div/section/ul/li/div/strong", "xpath:idRelative"],
+        ["xpath=//li/div/strong", "xpath:position"]
+      ],
+      "value": "MINSK, BELARUS OR ANYWHERE"
+    }, {
+      "id": "1e5afdc3-947e-4a1f-95bb-c3123862463a",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.search-result__item:nth-child(1) .search-result__location",
+      "targets": [
+        ["css=.search-result__item:nth-child(1) .search-result__location", "css:finder"],
+        ["xpath=//main[@id='main']/div/div/section/div/div/div/section/ul/li/div/strong", "xpath:idRelative"],
+        ["xpath=//li/div/strong", "xpath:position"]
+      ],
+      "value": "MINSK, BELARUS OR ANYWHERE"
+    }, {
+      "id": "a594e95a-44a2-44e9-b063-09a91b77028c",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.search-result__item:nth-child(1) .search-result__item-apply",
+      "targets": [
+        ["css=.search-result__item:nth-child(1) .search-result__item-apply", "css:finder"],
+        ["xpath=//a[contains(text(),'Apply')]", "xpath:link"],
+        ["xpath=//main[@id='main']/div/div/section/div/div/div/section/ul/li/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/careers/job-listings/job.45126')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"]
+      ],
+      "value": "APPLY"
+    }, {
+      "id": "e7fc232c-e314-445e-809c-ff776b7a1f87",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-result__item:nth-child(1) .search-result__item-apply",
+      "targets": [
+        ["css=.search-result__item:nth-child(1) .search-result__item-apply", "css:finder"],
+        ["xpath=//a[contains(text(),'Apply')]", "xpath:link"],
+        ["xpath=//main[@id='main']/div/div/section/div/div/div/section/ul/li/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/careers/job-listings/job.45126')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f260dc9-b240-4535-bb32-1ba2cc127f5b",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//main[@id='main']/article/div/header/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Senior JavaScript Engineer')]", "xpath:innerText"]
+      ],
+      "value": "Senior JavaScript Engineer"
+    }, {
+      "id": "b82b2b0c-d8b1-4693-bb7d-259ccf5b5200",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.recruiting-page__location > li",
+      "targets": [
+        ["css=.recruiting-page__location > li", "css:finder"],
+        ["xpath=//main[@id='main']/article/div/header/ul/li", "xpath:idRelative"],
+        ["xpath=//header/ul/li", "xpath:position"]
+      ],
+      "value": "Minsk, Belarus or Anywhere"
+    }, {
+      "id": "f3c6b71c-4df5-4436-a1ae-95d7c8d6269e",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.recruiting-page__location > li",
+      "targets": [
+        ["css=.recruiting-page__location > li", "css:finder"],
+        ["xpath=//main[@id='main']/article/div/header/ul/li", "xpath:idRelative"],
+        ["xpath=//header/ul/li", "xpath:position"]
+      ],
+      "value": "Minsk, Belarus or Anywhere"
+    }, {
+      "id": "1daaebdf-b6dd-473d-a039-a64e49c79bba",
+      "comment": "",
+      "command": "click",
+      "target": "css=.floating-menu__icons-list:nth-child(1) > .floating-menu__item:nth-child(2) > .floating-menu__link",
+      "targets": [
+        ["css=.floating-menu__icons-list:nth-child(1) > .floating-menu__item:nth-child(2) > .floating-menu__link", "css:finder"],
+        ["xpath=//main[@id='main']/article/div/section/div/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//div/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win2122",
+      "windowTimeout": 2000
+    }, {
+      "id": "4e9aeb62-0f16-47e5-babf-9e12fa48fc11",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win2122}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "0e784805-5ccb-481d-8e1f-6155c26e93ab",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6280c9a3-4058-4dd5-9337-6cf8c9159c7f"]
+  }],
+  "urls": ["https://www.epam.com/", "https://www.epam.com/careers"],
+  "plugins": []
+}
